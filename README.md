@@ -1,5 +1,6 @@
-#AUTH APP & FETCH APP#
-##AUTH APP#
+# AUTH APP & FETCH APP#
+
+## AUTH APP##
 Writen in node js.
 server will listen on port 3000
 - implement ddd
@@ -9,7 +10,7 @@ server will listen on port 3000
 - register and login function
 - integ test (pbt test)
 
-## FETCH APP#
+## FETCH APP##
 Writen in go.
 server will listen on port 8000
 - implement ddd
