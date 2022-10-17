@@ -18,6 +18,7 @@ x swagger
 - jwt token extract claims
 - yaml based configuration
 - fetch komoditas and aggregate 
+- implement in memory cache
 x integ test (pbt test)
 
 the projects packaged with docker.
