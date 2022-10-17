@@ -1,0 +1,22 @@
+{
+    "id": "/user-create",
+    "type": "object",
+    "required": [
+        "phone",
+        "role"
+    ],
+    "properties": {
+        "phone": {
+            "type": "string",
+            "maxLength": 15,
+            "minLength": 8
+        },
+        "role": {
+            "type": "string",
+            "enum": [
+                "admin",
+                "user"
+            ]
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "id": "/user-login",
+    "type": "object",
+    "required": [
+        "phone",
+        "password"
+    ],
+    "properties": {
+        "phone": {
+            "type": "string",
+            "maxLength": 15,
+            "minLength": 8
+        },
+        "password": {
+            "type": "string"
+        }
+    }
+}

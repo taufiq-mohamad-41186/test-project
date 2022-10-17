@@ -1,0 +1,3 @@
+test_number|test_type|test_desc|client_id|client_secret|auth_username|auth_password
+0|P|send valid payload|9ec63207-720e-4721-a97a-37011e93354f|dwS3VG4buqjIy37R9SyspBUYjWbqdHqX||
+1|P|send invalid payload|9ec63207-720e-4721-a97a-37011e93354f|dwS3VG4buqjIy37R9SyspBUYjWbqdHqX||

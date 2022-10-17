@@ -1,0 +1,65 @@
+basePath: /v2
+definitions:
+  restserver.Meta:
+    properties:
+      count:
+        type: integer
+      message:
+        type: string
+      status:
+        type: integer
+      type:
+        type: string
+    type: object
+  restserver.Response:
+    properties:
+      data:
+        type: object
+      error:
+        type: string
+      meta:
+        $ref: '#/definitions/restserver.Meta'
+        type: object
+    type: object
+host: petstore.swagger.io
+info:
+  contact:
+    email: support@swagger.io
+    name: API Support
+    url: http://www.swagger.io/support
+  description: This is a sample server Petstore server.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: Swagger Example API
+  version: "1.0"
+paths:
+  /aggregate:
+    get:
+      consumes:
+      - application/json
+      description: Get Aggregate
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/restserver.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/restserver.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/restserver.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/restserver.Response'
+      summary: Get Aggregate
+      tags:
+      - komoditas
+swagger: "2.0"
